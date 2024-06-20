@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voorkeuren</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Voorkeuren</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Registreren</a></li>
+            <li><a href="preferences.html">Voorkeuren</a></li>
+        </ul>
+    </nav>
+    <form id="preferences-form">
+        <label for="api">Favoriete Kaart type:</label>
+        <select id="api" name="api" value="">
+            <option value="lorem-picsum">Willekeurig</option>
+            <option value="dog-api">Honden</option>
+            <option value="cataas">Katten</option>
+        </select>
+        <label for="color_found">Gevonden kaartkleur:</label>
+        <input type="color" id="color_found" name="color_found" value="">
+        <label for="color_closed">Gesloten kaartkleur:</label>
+        <input type="color" id="color_closed" name="color_closed" value="">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" value="">
+        <button type="submit">Opslaan</button>
+    </form>
+    <button id="update-email">Update E-mail</button>
+    <script type="module" src="js/preferences.js"></script>
+</body>
+</html>

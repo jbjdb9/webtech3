@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inloggen</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Inloggen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Registreren</a></li>
+            <li><a href="preferences.html">Voorkeuren</a></li>
+        </ul>
+    </nav>
+    <form id="login-form">
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Inloggen</button>
+    </form>
+
+    <script type="module" src="js/login.js"></script>
+</body>
+</html>

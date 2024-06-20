@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Memory</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Javascript Memory</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Registreren</a></li>
+            <li><a href="preferences.html">Voorkeuren</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="game-info">
+            <div id="time-info">
+                <p>Verlopen tijd: <span id="elapsed-time">00:00</span></p>
+            </div>
+            <div id="found-pairs">Gevonden sets: <span id="pairs-found">0</span></p></div>
+        </section>
+        <section id="game-board">
+        </section>
+        <section id="settings">
+            <div id="character-setting">
+                <label for="api">Kies je kaart type:</label>
+                <select id="api">
+                    <option value="lorem-picsum">Willekeurig</option>
+                    <option value="dog-api">Honden</option>
+                    <option value="cataas">Katten</option>
+                </select>
+            </div>
+            <div id="board-size-setting">
+                <label for="board-size-select">Grootte bord:</label>
+                <select id="board-size-select">
+                    <option value="4x4">4x4</option>
+                    <option value="6x6" selected>6x6</option>
+                    <option value="8x8">8x8</option>
+                </select>
+            </div>
+            <div id="color-settings">
+                <label for="color_closed">Gesloten kaartkleur:</label>
+                <input type="color" id="color_closed" name="color_closed" value="#cccccc">
+                <label for="color_found">Gevonden kaartkleur:</label>
+                <input type="color" id="color_found" name="color_found" value="#cccccc">
+            </div>
+            <button id="start-button">Start spel</button>
+        </section>
+        <section id="statistics">
+            <h2>Top Vijf</h2>
+            <ol id="top-five">
+            </ol>
+            <div id="average-time">
+                <p>Totaal gemiddelde speeltijd: <span id="average-playtime">00:00</span></p>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
