@@ -79,14 +79,26 @@ input, select, button {
     cursor: pointer;
 }
 
-select {
-    max-width: 100px;
-}
-
-input:hover, select:hover, button:hover {
+button:hover {
     background-color: #45a049;
 }
 
+input, select {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+input:hover, select:hover {
+    background-color: #ddd;
+}
+
+select option {
+background: white;
+}
+
+label:hover + input, label:hover + select {
+    background-color: #f1f1f1;
+}
 
 #register-status, #login-status, #preferences-status {
     margin-top: 1rem;
