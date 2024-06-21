@@ -77,8 +77,8 @@ async function handleCardClick(event) {
                 const color_closed = document.getElementById('color_closed').value;
         
                 try {
-                    await saveGame({ score, api, color_found, color_closed });
                     alert(`Gefeliciteerd, je hebt gewonnen in ${elapsedTime}! Je score is ${score}.`);
+                    await saveGame({ score, api, color_found, color_closed });
                 } catch (error) {
                     console.error('Fout bij het opslaan van het spel:', error);
                 }

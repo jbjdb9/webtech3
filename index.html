@@ -18,30 +18,28 @@
         </ul>
     </nav>
     <main>
-        <section id="game-info">
-            <div id="time-info">
-                <p>Verlopen tijd: <span id="elapsed-time">00:00</span></p>
-            </div>
-            <div id="found-pairs">Gevonden sets: <span id="pairs-found">0</span></p></div>
-        </section>
-        <section id="game-board">
-        </section>
-        <section id="settings">
-            <div id="character-setting">
-                <label for="api">Kies je kaart type:</label>
-                <select id="api">
-                    <option value="lorem-picsum">Willekeurig</option>
-                    <option value="dog-api">Honden</option>
-                    <option value="cataas">Katten</option>
-                </select>
-            </div>
-            <div id="color-settings">
-                <label for="color_closed">Gesloten kaartkleur:</label>
-                <input type="color" id="color_closed" name="color_closed" value="#cccccc">
-                <label for="color_found">Gevonden kaartkleur:</label>
-                <input type="color" id="color_found" name="color_found" value="#cccccc">
-            </div>
-            <button id="start-button">Start spel</button>
+        <section id="game">
+            <section id="game-info">
+                <div id="time-info">
+                    <p>Verlopen tijd: <span id="elapsed-time">00:00</span></p>
+                </div>
+                <div id="found-pairs">Gevonden sets: <span id="pairs-found">0</span></p></div>
+            </section>
+            <section id="game-board">
+            </section>
+            <section id="settings">
+                    <label for="api">Kies je kaart type:</label>
+                    <select id="api">
+                        <option value="lorem-picsum">Willekeurig</option>
+                        <option value="dog-api">Honden</option>
+                        <option value="cataas">Katten</option>
+                    </select>
+                    <label for="color_closed">Gesloten kaartkleur:</label>
+                    <input type="color" id="color_closed" name="color_closed" value="#cccccc">
+                    <label for="color_found">Gevonden kaartkleur:</label>
+                    <input type="color" id="color_found" name="color_found" value="#cccccc">
+                <button id="start-button">Start spel</button>
+            </section>
         </section>
         <section id="statistics">
             <h2>Top Vijf</h2>
