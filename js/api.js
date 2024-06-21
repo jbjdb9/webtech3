@@ -173,6 +173,7 @@ export async function updateUserEmail(newEmail) {
     return response;
 }
 
+// Games opslaan lijkt broken te zijn in de backend, script van de backend werkt ook niet
 export async function saveGame(gameData) {
     const playerId = getPlayerIdFromToken();
     if (!playerId) {

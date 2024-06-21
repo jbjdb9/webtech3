@@ -1,0 +1,66 @@
+Week 2:
+
+1a - Het gebrek aan alt-text lijkt het meest belemmerend. Bij de andere problemen kan je er met wat extra moeite nog wel omheen werken, maar als je als blind persoon een afbeelding zonder omschrijving tegen komt is er niet echt een manier om er achter te komen wat er op het plaatje staat. En zeker als het een belangrijk plaatje is, bijvoorbeeld een infographic, lijkt mij dat erg frustrerend.
+
+Overigens lijkt het er wel op dat dit probleem misschien in de toekomst kan worden opgelost met AI die plaatjes kan herkennen, dus dat is mooi.
+
+
+1b - Pop-ups zijn waarschijnlijk een cliché antwoord, maar wel de waarheid. Cookie pop-ups, hoe goed bedoeld het idee erachter misschien kan zijn, zijn behoorlijk vervelend. Zeker als je de cookies niet wil accepteren kan het soms een behoorlijke puzzel zijn om de pop-up weg te krijgen. Maar ook andere vormen van pop-ups zijn vervelend. Video's die uit zichzelf beginnen te spelen, al helemaal als er geluid bij zit. De blinde auteur noemt ze ook, maar ook als ziende persoon zijn die enorm vervelend. En ze zijn verbazinngwekkend vaak erg lastig om te sluiten.
+
+Pop-ups zouden heel wat beter te verdragen zijn als je er omheen kan klikken om ze weg te halen. Het feit dat je met ze moet interacten, ook als je dat niet wil, maakt ze frustrerend. Misschien zou je het zo kunnen maken dat als je er omheen klikt ze ergens in een hoekje geminimaliseerd blijven staan zodat je er altijd naar terug kan gaan. Dat lijkt een goede oplossing.
+
+
+2 - Op zich is de argumentatie van het artikel wel overtuigend, met name dat een telefoon interface vaak simpeler is en het dus makkelijker is om daar te beginnen. Alleen is het logistiek wel lastiger om op een telefoon dingen te testen, omdat je (hopelijk) op een computer aan het programmeren bent. Ook is er een argument te maken dat je misschien juist eerst de ingewikkelde layout op orde wil hebben, zodat je niet eerst een heleboel tijd besteed aan je mobiele layout en er vervolgens achter komt dat het helemaal niet werkt wanneer het opgeschaald en uitgebreid wordt. Als je begint met een desktop layout weet je ten minste zeker dat die versie goed gaat werken.
+
+Uiteindelijk hangt het vooral van de opdracht af, de ene soort website is waarschijnlijk makkelijker om op een mobiele layout te ontwikkelen dan de ander. Het beste wat je kan doen is gewoon de voorkeur van je klant vragen om te zien welke layout hij belangrijker vind.
+
+
+
+Week 4:
+
+1 - De methode is om javascript uit te zetten bij het bekijken van websites, om te zien hoeveel verschil dat maakt.
+
+Reddit laad helemaal niet meer
+Github laad wel maar je kan nergens op klikken en de meeste 'content' verschijnt niet
+NOS lijkt het vrij goed te doen, alleen dropdowns en videos werken niet
+Instagram komt niet verder dan een witte pagina met het instagram logo
+
+Zoals verwacht doet het grootste deel van het internet het helemaal niet meer. Alleen simpele tekst websites doen het nog wel, hoewel de meeste ook beperkingen zullen hebben. Dus javascript is wel essentieel als je op het internet wil browsen.
+
+
+2 - Het grootste argument tegen javascript is de veiligheid ervan. De auteur noemt het gemak bij het gebruik van frameworks en het feit dat JS interpreted is als grote nadelen voor de veiligheid, en daardoor is er een belang om andere talen te kunnen gebruiken. Dat wil niet zeggen dat JS hoeft te verdwijnen, maar het is altijd goed om opties te hebben. Nieuwe talen zullen nieuwe innovaties en verbeteringen met zich mee brengen. Veiligheid is zeker een belangrijk gebied om de innovatie scherp in te houden, gezien de hoeveelheid belangrijke zaken die tegenwoordig via een website gaan. Ook zal een nieuwe taal voor competitie zorgen, wat goed voor beide talen is.
+
+
+
+Week 5:
+
+Use-Cases:
+- API Authenticatie: Verifieren dat een specifieke client de API gebruikt
+- Authenticatie over meerdere servers: zodat je operaties over meerdere servers kan doen met authenticatie
+- Verversen van tokens: langlevende verversingstokens met JWT's zodat je langer ingelogd kan blijven zonder opnieuw de database te hoeven accessen
+
+Voordelen:
+- Stateless auth: sessies hoeven niet op de server te worden opgeslagen
+- Compatibiliteit: JWTs zijn met veel architecturen compatibel
+
+Nadelen:
+- Grootte beperkingen: kan maar een kleine hoeveelheid cookies opslaan en JWTs zijn niet geschikt voor localstorage
+- Token invalidation: moeilijk om een enkele JWT in te trekken zonder centrale autoriteit
+- Minder veilig: JWT's zijn zichtbaar bij onderschepping, niet versleuteld
+- Complexiteit en fouten: grotere kans op fouten doordat ze uitgebreide functionaliteit ondersteunen
+
+Best Practices:
+- Gebruik HTTPS: Beschermt inhoud tijdens transmissie
+- Korte levensduur van tokens: Minimaliseert blootstelling bij diefstal
+- Gebruik HttpOnly Cookies: Voorkomt toegang via JavaScript
+- Token verversen: Vernieuw verlopen tokens zonder herhaalde authenticatie
+- Token Revocation Management: Houd ingetrokken tokens bij voor toegangsbeheer
+
+
+Voor de memory opdracht en IWA opdracht zijn JWTs geschikt omdat ze moeten authenticeren over meerdere servers en de schaal van de apps is relatief klein en met name memory heeft weinig gevoelige informatie. Toch moeten we er wel op letten om aan de best practices te houden.
+
+
+
+Week 7:
+
+Het artikel van deze leesopdracht is een members-only artikel, dus die kunnen we niet lezen.
